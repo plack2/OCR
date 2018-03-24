@@ -1,13 +1,3 @@
-/*
-GoogleドライブのOCR技術を使って画像の文字をGoogleドキュメントに書き出す。
-Google Apps Scriptで、複数の画像の文字を１つのドキュメントにまとめるプログラム。
-
-GitHubへの公開初めてなので、何かあればコメントください
-
-※一度に大量の画像をOCRにかけると、Google Apps Scriptの５分の壁に抵触し、タイムアウトエラーになる可能性があります。
-公開日：2018年3月21日
-*/
-
 function myFunction() {
 
   var uploder = DriveApp.getFolderById("画像をアップロードするフォルダのIDを入力")
